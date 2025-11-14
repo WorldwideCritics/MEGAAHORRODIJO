@@ -1,0 +1,23 @@
+:root {
+  /* Colores Primarios - Extraídos del Logo */
+  --dijo-red: #C8102E;        /* Rojo corporativo (letra D) */
+  --dijo-blue-primary: #2E7AB7; /* Azul principal (arcos y globo) */
+  --dijo-navy: #003366;        /* Azul marino oscuro (barco y detalles) */
+  --dijo-cyan: #43B5E5;        /* Azul cielo (avión y olas) */
+  
+  /* Colores Secundarios */
+  --dijo-gray-dark: #3D3D3D;   /* Textos principales */
+  --dijo-gray-medium: #6B6B6B; /* Textos secundarios */
+  --dijo-gray-light: #E8E8E8;  /* Fondos y separadores */
+  --dijo-white: #FFFFFF;
+  
+  /* Colores de Acción (CTA) */
+  --cta-primary: #C8102E;      /* Botones principales */
+  --cta-secondary: #2E7AB7;    /* Botones secundarios */
+  --cta-success: #28A745;      /* Confirmaciones */
+  --cta-warning: #FFC107;      /* Alertas */
+  
+  /* Tipografía */
+  --font-primary: 'Montserrat', sans-serif;
+  --font-secondary: 'Open Sans', sans-serif;
+}

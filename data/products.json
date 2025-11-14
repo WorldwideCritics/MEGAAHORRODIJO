@@ -1,0 +1,97 @@
+{
+  "products_sample": [
+    {
+      "sku": "CEM-PORT-001",
+      "title": "Cemento Portland Tipo I - 50kg",
+      "category": "Construcción",
+      "category_id": 1,
+      "subcategory": "Cemento",
+      "mapped_category_from_dijo_site": "Productos de Construcción > Materiales Base",
+      "description_short": "Cemento Portland de alta resistencia",
+      "price_base": 9.38,
+      "price_tiers": [
+        {"qty_min": 100, "price": 8.75, "label": "100+ sacos"},
+        {"qty_min": 500, "price": 8.25, "label": "500+ sacos (1 pallet)"}
+      ],
+      "stock": {
+        "warehouse_colon": 5420,
+        "warehouse_panama_city": 1200,
+        "total": 6620,
+        "status": "in_stock"
+      },
+      "images": [
+        "/assets/products/cemento-portland-001-1.jpg",
+        "/assets/products/cemento-portland-001-2.jpg"
+      ]
+    },
+    {
+      "sku": "TEX-CAM-012",
+      "title": "Camisetas Cotton 100% - Pack 12 unid",
+      "category": "Textil y Confección",
+      "category_id": 2,
+      "subcategory": "Ropa",
+      "mapped_category_from_dijo_site": "Textil > Confección > Ropa Casual",
+      "variants": [
+        {"size": "S", "stock": 2150},
+        {"size": "M", "stock": 3200},
+        {"size": "L", "stock": 2100},
+        {"size": "XL", "stock": 1000}
+      ],
+      "price_unit": 4.50,
+      "price_pack_12": 52.00,
+      "price_box_144": 576.00,
+      "stock_total": 8450,
+      "images": [
+        "/assets/products/camisetas-cotton-012-white.jpg",
+        "/assets/products/camisetas-cotton-012-black.jpg",
+        "/assets/products/camisetas-cotton-012-colors.jpg"
+      ]
+    },
+    {
+      "sku": "CONT-ELEC-40HC",
+      "title": "Electrónica Mix - Contenedor 40' HC",
+      "category": "Electrónica",
+      "category_id": 3,
+      "sale_type": "container",
+      "container_specs": {
+        "type": "40HC",
+        "capacity_cbm": 67.5,
+        "max_weight_kg": 26500
+      },
+      "products_included": [
+        {"sku": "ELEC-PHONE-789", "quantity": 500},
+        {"sku": "ELEC-TABLET-456", "quantity": 300},
+        {"sku": "ELEC-ACCESSORIES-MIX", "quantity": 2000}
+      ],
+      "price_from": 45000,
+      "incoterm": "FOB",
+      "port_origin": "Shenzhen, China",
+      "lead_time_days": 30,
+      "mapped_category_from_dijo_site": "Electrónica > Importación por Contenedor"
+    }
+  ],
+  "category_mapping_from_dijo_site": {
+    "extracted_categories": [
+      {
+        "name": "Productos de Construcción",
+        "subcategories": ["Cemento", "Arena y Grava", "Varillas", "Herramientas"]
+      },
+      {
+        "name": "Textil y Confección",
+        "subcategories": ["Telas", "Ropa Casual", "Uniformes", "Accesorios"]
+      },
+      {
+        "name": "Electrónica",
+        "subcategories": ["Smartphones", "Tablets", "Accesorios", "Electrodomésticos"]
+      },
+      {
+        "name": "Alimentos y Bebidas",
+        "subcategories": ["Enlatados", "Bebidas", "Snacks", "Condimentos"]
+      },
+      {
+        "name": "Maquinaria Industrial",
+        "subcategories": ["Equipos", "Herramientas Eléctricas", "Repuestos"]
+      }
+    ]
+  }
+}

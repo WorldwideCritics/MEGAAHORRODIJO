@@ -1,0 +1,17 @@
+/* Paleta Corporativa DIJO - Extraída del Logo */
+:root {
+  --dijo-red: #C8102E;           /* Rojo principal (letra D) */
+  --dijo-blue-primary: #2E7AB7;  /* Azul corporativo (arcos, globo) */
+  --dijo-navy: #003366;          /* Azul marino (barco, detalles oscuros) */
+  --dijo-cyan: #43B5E5;          /* Azul cielo (avión, olas) */
+  
+  --gray-dark: #3D3D3D;          /* Textos principales */
+  --gray-medium: #6B6B6B;        /* Textos secundarios */
+  --gray-light: #E8E8E8;         /* Fondos, separadores */
+  
+  --white: #FFFFFF;
+  
+  --success: #28A745;            /* Estados positivos */
+  --warning: #FFC107;            /* Alertas */
+  --error: #DC3545;              /* Errores */
+}
