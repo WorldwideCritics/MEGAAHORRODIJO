@@ -302,7 +302,7 @@
 
 .hero-section {
   position: relative;
-  height: 500px;
+  height: 640px; /* antes 500px */
   overflow: hidden;
 }
 
@@ -312,16 +312,13 @@
 }
 
 .hero-slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background-size: cover;
-  background-position: center;
-  opacity: 0;
-  transition: opacity var(--transition-slow);
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 640px; /* asegura que la imagen se vea completa */
 }
+
+
 
 .hero-slide.active {
   opacity: 1;
