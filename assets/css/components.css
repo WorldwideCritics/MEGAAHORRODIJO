@@ -1,6 +1,6 @@
 /* Logo */
 .logo img {
-  height: 64px;
+  height: 192px;
   width: auto;
   transition: transform 0.25s ease;
 }
@@ -230,6 +230,10 @@
 @media(max-width: 720px) {
   .header-content {
     padding: 1rem 1.2rem;
+  }
+
+  .logo img {
+    height: 120px;
   }
 
   .header-actions {

@@ -149,7 +149,7 @@ p {
 }
 
 .logo img {
-  height: 64px;
+  height: 192px;
   width: auto;
 }
 
@@ -653,6 +653,10 @@ main {
   .header-content {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .logo img {
+    height: 120px;
   }
 
   .hero-highlight {
